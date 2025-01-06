@@ -12,7 +12,7 @@ function PasswordPage() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (password === 'mySecretPassword') {
+    if (password === '123') {
       setIsAuthenticated(true);
     } else {
       alert('Incorrect Password');
