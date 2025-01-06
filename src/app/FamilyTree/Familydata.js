@@ -1,4 +1,4 @@
-export const familyData = [
+export const familyData =  [
   {
     id: 1,
     name: 'Grandfather and Grandmother',
@@ -19,14 +19,19 @@ export const familyData = [
       {
         id: 13,
         name: 'Padma Ajji',
-        details: '',
+        details: 'Birthdate: 24th Feb',
         children: [
           {
             id: 131,
-            name: 'Kavitha',
-            details: 'Married to Jagannath, had a child called Amulya',
+            name: 'Dr. Kavitha MOM',
+            details: 'Birthdate: 8th Sep\nMarried to Jagannath, had a child called Amulya',
             children: [
-              { id: 1311, name: 'Amulya', details: 'Daughter of Kavitha and Jagannath', children: [] },
+              { 
+                id: 1311, 
+                name: 'Amulya', 
+                details: 'Birthdate: 19th July 1999\nLucky Number: 01', 
+                children: [] 
+              },
             ],
           },
           { id: 132, name: 'Kiran Mama', details: '', children: [] },
@@ -54,10 +59,16 @@ export const familyData = [
       },
       {
         id: 17,
-        name: 'Jagannath (Your Father)',
-        details: 'Married to Kavitha, Father of Amulya',
+        name: 'Jagannath Father ',
+        details: 'Birthdate: 11th Feb 1964\nAnniversary: 30th July\nMarried to Kavitha, Father of Amulya',
         children: [
-          { id: 1311, name: 'Amulya', details: 'Daughter of Kavitha and Jagannath', children: [] }],
+          { 
+            id: 1311, 
+            name: 'Amulya', 
+            details: 'Birthdate: 19th July 1999\nLucky Number: 01', 
+            children: [] 
+          },
+        ],
       },
       {
         id: 18,
